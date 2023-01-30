@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section ul
+{
+    list-style: none;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+body
+{
+    background-image: url(./assets/comuna.jpg);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+main
+{
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: flex;
+    display: grid;
+    gap: 15px;
+    margin-top: 34px;
+}
+
+body
+{
+    font-family: Arial;
+    line-height: 160%;
+}
+
+header{
+    padding-top: 32px;
+    text-align: center;
+    animation: fromtop .7s .4s backwards;
+}
+
+header div{
+    width: 180px ;
+    margin: auto;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.22%, #E2D45E 100%);
+    border-radius: 32%;
+    display: flex;
+    padding: 4px;
+
+    transition: transform 0.1s;
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+header img{
+    width: 100% ;
+    border-radius: 30%;
+}
+section div
+{
+    background-color: #2A2632;
+    padding: 30px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section ul li:hover{
+    transform: scale(1.1);
+    transition: transform 0.1s;
+
+}
+
+section
+{
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.22%, #E2D45E 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+
+}
+
+
+section h2{
+    letter-spacing: -0.47px;
+}
+
+section p{
+    letter-spacing: -0.40px;
+    color: rgb(194, 194, 194);
+}
+
+ul
+{
+    display: flex;
+    gap: 16px;
+}
+
+.Jogos img
+{
+    width: 120px;
+    border-radius: 8px;
+}
+
+.Streamers img
+{
+    width: 80px;
+    border-radius: 50%;
+}
+
+@keyframes fromTop{
+    from{
+        opacity: 0;
+        transform: translateY(-32px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
