@@ -14,4 +14,4 @@ Projeto construído no evento Next Level Week (NLW) da Rocketset.
 
 ## Contato
 
-jefframosbr21@gmail.com
+email: jefframosbr21@gmail.com
